@@ -1,0 +1,36 @@
+.member{
+    display: flex;
+    padding:10px 10px 15px 100px;
+    border-bottom: 1px solid lightgray;
+}
+.img img{
+    width: 200px;
+}
+.info{
+    padding: 0 5px 5px 20px;
+}
+.addBtn{
+    width: 150px;
+    background-color: mediumspringgreen;
+    padding: 5px 0;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid mediumspringgreen;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.addBtn:hover{
+    background: transparent;
+    color: mediumspringgreen;
+}
+.added{
+    width: 150px;
+    background-color: darkcyan;
+    padding: 5px 0;
+    font-size: 18px;
+    border:2px solid darkcyan;
+    border-radius: 5px;
+    cursor: default;
+    color: #fff;
+}
